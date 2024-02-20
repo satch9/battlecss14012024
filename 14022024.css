@@ -1,0 +1,76 @@
+:root {
+    --background-color-body: white;
+    --background-color-container: #2F2E59;
+    --background-color-element: #EEECF6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--background-color-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background: var(--background-color-container);
+}
+
+.element {
+    background: var(--background-color-element);
+    position: relative;
+}
+
+#h-bar {
+    width: 210px;
+    height: 30px;
+    top: 52px;
+    left: 87px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.v-bar{
+    width: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+#bar1 {
+    height: 90px;
+    top: 52px;
+    left: 87px; 
+}
+
+#bar2 {
+    height: 120px;
+    top: -38px;
+    left: 132px; 
+}
+
+#bar3 {
+    height: 150px;
+    top:-158px;
+    left: 177px; 
+}
+
+#bar4{
+    height: 120px;
+    top:-308px;
+    left: 222px;
+    
+}
+#bar5{
+    height: 80px;
+    top:-428px;
+    left: 267px;
+}

@@ -1,0 +1,68 @@
+:root {
+    --bg-color-body: white;
+    --bg-color-container: #024817;
+    --bg-color-element: #CCE9D3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--bg-color-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background: var(--bg-color-container);
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    background: var(--bg-color-element);
+    position: relative;
+}
+
+#h-bar1{
+    width: 40px;
+    height: 20px;
+    top: 60px;
+}
+
+#h-bar2{
+    width: 120px;
+    height: 35px;
+    top: 60px;
+}
+
+#h-bar3{
+    width: 200px;
+    height: 35px;
+    top: 80px;
+}
+
+#h-bar4{
+    width: 120px;
+    height: 35px;
+    top: 100px;
+}
+
+#h-bar5{
+    width: 40px;
+    height: 20px;
+    top: 100px;
+    
+}
