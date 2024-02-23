@@ -1,28 +1,24 @@
-:root {
-    --bg-color-body: white;
-    --bg-color-container: #024817;
-    --bg-color-element: #CCE9D3;
-}
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleCSS</title>
+    <link rel="stylesheet" href="15022024.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="bar" id="h-bar1"></div>
+            <div class="bar" id="h-bar2"></div>
+            <div class="bar" id="h-bar3"></div>
+            <div class="bar" id="h-bar4"></div>
+            <div class="bar" id="h-bar5"></div>
+        </div>
+    </div>
+</body>
+</html> */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    height: 100vh;
-    background: var(--bg-color-body);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    width: 400px;
-    height: 300px;
-    background: var(--bg-color-container);
-}
 
 .main{
     display:flex;

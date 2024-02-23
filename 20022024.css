@@ -1,0 +1,69 @@
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleCSS</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="20022024.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex">
+            <div class="square light" id="square1">
+                <div class="dark" id="small-square"></div>
+                <div class= "flex dark" id="big-square2">
+                    <div class="light" id="small-light"></div>
+                </div>
+                <div class="dark" id="small-square"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
+
+--bg-color-container: #4A1818;
+--bg-color-element: #F16B4A;
+*/
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.light{
+    background: var(--bg-color-element);
+}
+.dark{
+    background: var(--bg-color-container);
+}
+
+.square {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#square1 {
+    height: 200px;
+    width: 200px;
+    top: 50px;
+}
+
+#small-square {
+    width: 40px;
+    height: 40px;
+}
+
+#big-square2 {
+    width: 120px;
+    height: 120px;
+}
+
+#small-light {
+    width: 60px;
+    height: 60px;
+}

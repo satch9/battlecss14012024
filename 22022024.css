@@ -1,0 +1,61 @@
+.circle {
+    width: 80px;
+    height: 80px;
+    background: var(--bg-color-element);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-in {
+    width: 50px;
+    height: 50px;
+    background: var(--bg-color-container);
+    border-radius: 50%;
+}
+
+#c3 {
+    left: 230px;
+}
+
+#c2 {
+    left: 150px;
+    top: -40px;
+}
+
+#c1 {
+    top: 160px;
+    left: 70px;
+}
+
+#c3 div::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 61px;
+    background-color: var(--bg-color-element);
+    left: 32px;
+    top: 79px;
+}
+
+#c2 div::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 181px;
+    background-color: var(--bg-color-element);
+    left: 32px;
+    top: 79px;
+}
+
+#c1 div::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 61px;
+    background-color: var(--bg-color-element);
+    left: 32px;
+    top: 79px;
+}

@@ -1,0 +1,27 @@
+:root {
+    --bg-color-body: white;
+    --bg-color-container: #0D2328;
+    --bg-color-element: #9ED7F8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: var(--bg-color-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background: var(--bg-color-container);
+    position: relative;
+}
+
